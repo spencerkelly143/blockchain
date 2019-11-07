@@ -1,0 +1,9 @@
+applications:
+- name: blockchain.py
+  disk_quota: 128M
+  instances: 1
+  memory: 128M
+  routes:
+  - route: blockchainpy.mybluemix.net
+  stack: cflinuxfs3
+  build_packs: python_buildpack
